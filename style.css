@@ -1,0 +1,390 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/image/image\ netflix.jpg);
+    background-size: cover;
+
+}
+.blackbox{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.566) ;
+    z-index: -2;
+}
+nav{
+  padding-top: 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    
+    align-items: center;
+    /* z-index: 3; */
+    
+}
+.image{
+     margin-left: 90px;
+    width: 200px;
+    height: 100%;
+    background-image: url(/image/Netflix_Logo_PMS.png);
+    background-size: cover;
+
+}
+#button{
+    margin-left: 30px;
+    background-color: rgb(229, 9, 20);
+    height: 55%;
+    width:70px;
+    border-radius: 8px;
+    color: white;
+    border: solid 1px black;
+    cursor: pointer;
+   
+}
+#button:hover{
+  background-color:rgb(193, 17, 25);
+}
+#select{
+    background-color: transparent;
+
+    border: none;
+    height: 30px;
+    width: 80px;
+    color: white;
+
+}
+.select{
+    margin-left: 650px;
+    border: solid 1.5px rgb(105, 100, 100);
+    border-radius:6px;
+    color: white;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.context{
+    margin-top: 75px;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .context h1{
+   color: white;
+   font-weight: 900;
+   font-size: 50px;
+   margin-bottom: 25px;
+  }
+  .context p{
+    margin-bottom: 25px;
+   font-size: 25px;
+   color: rgba(255, 255, 255, 0.9);
+  }
+  .context h3{
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 15px;
+  }
+  #input{
+    display: inline-block;
+    width: 55%;
+    height: 44px;
+    background-color: transparent;
+    border: solid 2px gray;
+    border-radius: 5px;
+    color: white;
+    padding-left: 70px;
+  
+
+  }
+  .box2{
+     height: 50px;
+     width: 600px;
+     display: flex;
+     padding: none;
+  }
+
+  #btn{
+    border: none;
+    padding: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20); 
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    margin-left: 10px;
+    cursor: pointer;
+    
+  }
+  #btn:hover{
+    background-color:rgb(193, 17, 25);
+  }
+  .content-box1{
+    display: flex;
+    background-color: black;
+    color: white;
+  }
+  .sub11{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+  }
+  .sub12{
+    position: relative;
+    
+  }
+  .video{
+    position: absolute;
+    top:45px;
+    right: 93px;
+    z-index: 1;
+  }
+  .sub11 h1{
+    font-weight: bolder;
+   font-size: 50px;
+   margin-bottom: 25px;
+  }
+  .sub11 p{
+    font-size: large;
+   
+  }
+  
+  .sub22{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-box2{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 500px;
+  }
+  .sub22 h1{
+    font-weight: bolder;
+   font-size: 50px;
+   margin-bottom: 25px;
+  }
+  .sub22 p{
+    font-size: large;
+  }
+  .loading-box{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+    height: 90px;
+    width: 312px;
+    display: flex;
+    border: solid 2px gray;
+    margin-left: 90px;
+    position: absolute;
+    top: 300px;
+    background-color: black;
+}
+.sub21{
+    position: relative;
+    padding-top: 40px;
+}
+   
+  
+    
+  .gif-box{
+    height: 100%;
+    width: 50px;
+    display: inline;
+    margin-left: 30px;
+    padding-top: 20px;
+
+  }
+  .text-box{
+    margin-left: 20px;
+  }
+  .content-box3{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 500px;
+    align-items: center;
+  }
+  .sub31{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+    
+  }
+  .sub31 h1{
+    font-weight: bolder;
+   font-size: 50px;
+   margin-bottom: 25px;
+  }
+  .sub31 p{
+    font-size: large;
+  }
+  .content-box4{
+    display: flex;
+    background-color: black;
+    color: white;
+  }
+  .sub42{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+  }
+  .sub42 h1{
+    font-weight: bolder;
+   font-size: 50px;
+   margin-bottom: 25px;
+  }
+  .sub42 p{
+    font-size: large;
+  }
+  .large-div{
+    height: 900px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+  }
+
+  .sub-large{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    
+  }
+  .sub-large h2{
+    color: white ;
+    /* margin-top: 50px;
+    margin-bottom: 20px; */
+  }
+  .sub-large button{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    height: 80px;
+    width: 80%;
+    background-color: rgb(48, 45, 45);
+    color: white;
+    padding: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  .sub-large button:hover{
+    background-color: rgb(82, 77, 77);
+  }
+  .sub-large button p{
+    font-size: 1.4rem;
+    
+  }
+.large-div h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+   position: absolute;
+   top: 80px;
+   right: 270px;
+}
+
+.itag{
+    height: 25px;
+    width: 25px;
+}
+.small-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  bottom: 55px;
+  left: 250px;
+  
+}
+.small-box h2{
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+footer{
+  height: 500px;
+  width: 100%;
+  color: white;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center; 
+  
+  
+ 
+  
+}
+.anchor-div{
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  
+}
+footer a{
+  
+  color: rgb(179, 179, 179);
+  margin-bottom: 10px;
+}
+.anchorlarge{
+  display: flex;
+  flex-direction: row;
+}
+#selectfooter{
+  background-color: transparent;
+
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    height: 25px;
+    width: 110px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.subfooter{
+ text-align: left;
+
+ 
+}
+.anchor-div,.anchorlarge {
+  margin-bottom: 20px;
+}
+footer p{
+  margin-bottom: 30px;
+}
